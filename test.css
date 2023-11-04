@@ -1,0 +1,506 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  width: 100%;
+  margin: 0;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  background-color: #f1f3ff;
+}
+
+.heroContainer {
+  padding-top: 25px;
+}
+
+#heroTitle {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+#heroDesc {
+  color: #000;
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.carImage {
+  width: 95%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#service {
+  margin-top: 20px;
+}
+#serviceImage {
+  width: 80%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+#serviceTitle {
+  color: #000;
+
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  width: 100%;
+}
+
+#serviceDesc {
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  width: 100%;
+}
+
+#serviceBenefits {
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+#whyUs {
+  margin-top: 50px;
+}
+
+#whyTitle {
+  width: 100%;
+  color: #000;
+
+  /* Heading/24/Bold */
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+#whyDesc {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+#whyContentTitle {
+  color: #000;
+
+  /* Title/16/Bold */
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+#whyContentDesc {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.carouselBody {
+  width: 90%;
+}
+
+#carouselDesc {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px; /* 142.857% */
+}
+
+#carouselName {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Regular */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+
+.footerText {
+  width: 268px;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.footerAnchor {
+  color: #000;
+
+  /* Body/14/Regular */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-decoration: none;
+}
+
+#testi {
+  margin-top: 20px;
+  text-align: start;
+}
+
+#getStartTitle {
+  color: var(--neutral-01, #fff);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+#getStartDesc {
+  width: 100%;
+  color: var(--neutral-01, #fff);
+  text-align: center;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: start;
+}
+
+#list-container {
+  margin-top: 360px;
+}
+
+@media only screen and (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+  }
+  #navbar-brand {
+    margin-left: 100px;
+    margin-top: 12px;
+  }
+  .hero {
+    width: 100%;
+    height: auto;
+    background-color: #f1f3ff;
+  }
+  .heroContainer {
+    padding-top: 97px;
+  }
+  .heroText {
+    margin-left: 100px;
+  }
+
+  #heroTitle {
+    width: auto;
+    height: auto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 110%;
+    text-align: start;
+  }
+
+  #heroDesc {
+    color: #000;
+    width: 75%;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 10px;
+    line-height: 20px; /* 142.857% */
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+  }
+  .carImage {
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+
+  #service {
+    margin-top: 120px;
+  }
+
+  #serviceImage {
+    width: 400px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  #serviceTitle {
+    color: #000;
+
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    width: 468px;
+    text-align: start;
+  }
+
+  #serviceDesc {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    width: 468px;
+    text-align: start;
+  }
+
+  #serviceBenefits {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  #whyUs {
+    margin-top: 100px;
+  }
+
+  #whyTitle {
+    width: 468px;
+    color: #000;
+
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+  }
+
+  #whyDesc {
+    width: 468px;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  #whyContentTitle {
+    color: #000;
+
+    /* Title/16/Bold */
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+  }
+
+  #whyContentDesc {
+    width: 220px;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  #testi {
+    margin-top: 100px;
+    text-align: start;
+  }
+
+  .carouselBody {
+    width: 70%;
+  }
+
+  .carouselImage {
+    width: 71px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+
+  #carouselDesc {
+    width: 415px;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px; /* 142.857% */
+  }
+
+  #carouselName {
+    width: 415px;
+    color: #000;
+
+    /* Body/14/Regular */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+  }
+
+  #getStartTitle {
+    color: var(--neutral-01, #fff);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+  }
+
+  #getStartDesc {
+    width: 468px;
+    color: var(--neutral-01, #fff);
+    text-align: center;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .accordion-button {
+    color: #000;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .accordion-body {
+    color: #000;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .footer {
+    padding-top: 200px;
+    text-align: start;
+  }
+
+  .footerText {
+    width: 268px;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .footerAnchor {
+    color: #000;
+
+    /* Body/14/Regular */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+  }
+
+  label {
+    font-size: smaller;
+    font-family: Helvetica;
+    font-weight: 400;
+  }
+
+  #list-container {
+    margin-top: 100px;
+  }
+}

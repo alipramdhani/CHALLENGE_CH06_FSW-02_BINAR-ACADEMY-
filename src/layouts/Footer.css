@@ -1,0 +1,34 @@
+.footer {
+  padding-top: 50px;
+  text-align: start;
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 200px;
+    text-align: start;
+  }
+
+  .footerText {
+    width: 268px;
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .footerAnchor {
+    color: #000;
+
+    /* Body/14/Regular */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-decoration: none;
+  }
+}

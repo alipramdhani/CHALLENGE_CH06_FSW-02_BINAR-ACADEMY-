@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.anchor {
+  gap: 32px;
+}
+.navLink {
+  color: #000;
+
+  /* Body/14/Regular */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 142.857% */
+  text-decoration: none;
+}
+
+#offcanvasResponsiveLabel {
+  color: #000;
+
+  /* Body/14/Bold */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+  }
+  #navbar-brand {
+    margin-left: 100px;
+    margin-top: 12px;
+  }
+}
