@@ -1,5 +1,6 @@
 .navbar {
   background-color: #f1f3ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.073);
 }
 
 .navbar-brand {
@@ -37,7 +38,8 @@
     position: fixed;
     width: 100%;
     z-index: 99;
-    background-color: transparent;
+    background-color: #f1f3ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
   }
   #navbar-brand {
     margin-left: 100px;

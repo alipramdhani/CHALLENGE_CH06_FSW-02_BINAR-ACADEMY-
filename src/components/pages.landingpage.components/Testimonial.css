@@ -1,0 +1,71 @@
+.carouselBody {
+  width: 90%;
+}
+
+#carouselDesc {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px; /* 142.857% */
+}
+
+#carouselName {
+  width: 100%;
+  color: #000;
+
+  /* Body/14/Regular */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+#testi {
+  margin-top: 20px;
+  text-align: start;
+}
+
+@media only screen and (min-width: 768px) {
+  #testi {
+    margin-top: 100px;
+    text-align: start;
+  }
+}
+.carouselBody {
+  width: 70%;
+}
+
+.carouselImage {
+  width: 71px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+#carouselDesc {
+  width: 415px;
+  color: #000;
+
+  /* Body/14/Light */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px; /* 142.857% */
+}
+
+#carouselName {
+  width: 415px;
+  color: #000;
+
+  /* Body/14/Regular */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}

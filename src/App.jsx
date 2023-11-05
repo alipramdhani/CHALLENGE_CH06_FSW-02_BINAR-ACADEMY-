@@ -1,7 +1,7 @@
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "./pages/landingPage";
+import LandingPage from "./pages/LandingPage";
 import Cars from "./pages/Cars";
 
 function App() {

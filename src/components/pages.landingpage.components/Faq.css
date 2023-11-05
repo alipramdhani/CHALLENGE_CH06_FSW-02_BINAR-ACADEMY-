@@ -1,0 +1,21 @@
+@media only screen and (min-width: 768px) {
+  .accordion-button {
+    color: #000;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .accordion-body {
+    color: #000;
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+}
