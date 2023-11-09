@@ -1,0 +1,30 @@
+#box .fontLabel {
+  font-size: 12px;
+  font-family: Rubik;
+}
+#box .icon-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: small;
+  font-family: Rubik;
+}
+#date
+  .icon-2
+  input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+#box
+  .icon-3
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  font-family: Rubik;
+  font-size: small;
+}
