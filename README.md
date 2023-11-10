@@ -1,8 +1,43 @@
-# React + Vite
+# HOW TO RUN THIS PROJECT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Clone repository from my github
 
-Currently, two official plugins are available:
+```shell
+$ git clone https://github.com/alipramdhani/CHALLENGE_CH06_FSW-02_BINAR-ACADEMY-.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2. Dont forget to Remote Remove Origin
+
+```shell
+$ git remote remove origin
+```
+
+### 3. Instal all module from ReactJS
+
+```shell
+$ npm i
+```
+
+### 4. Run Application file
+
+```shell
+$ npm run dev
+```
+
+## Pages
+
+#### Landing Page 1
+
+![App Screenshot](</src/assets/images/screenshot/Screenshot-(396).png>)
+
+#### Landing Page 2
+
+![App Screenshot](<./src/assets/images/screenshot/Screenshot-(397).png>)
+
+#### Car List
+
+![App Screenshot](<./src/assets/images/screenshot/Screenshot-(400).png>)
+
+### Filter Cars
+
+![App Screenshot](<./src/assets/images/screenshot/Screenshot-(398).png>)
